@@ -1,0 +1,42 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nav_menu"
+    tools:context="com.epiandroid.epitech.epiandroid.viewlist">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="top|start"
+            android:text="@string/profile_last_messages"
+            android:textSize="20sp"
+            android:id="@+id/last_messages_text" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/profile_messages" />
+    </LinearLayout>
+
+    <ListView android:id="@+id/left_nav"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:background="@color/counter_text_color"
+        >
+    </ListView>
+</android.support.v4.widget.DrawerLayout>

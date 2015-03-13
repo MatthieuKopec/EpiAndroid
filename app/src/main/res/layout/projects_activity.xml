@@ -1,0 +1,60 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nav_menu"
+    tools:context="com.epiandroid.epitech.epiandroid.viewlist">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top|start"
+                android:text="@string/my_projects"
+                android:textSize="20sp"
+                android:id="@+id/last_projects_text" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="5dp" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/show_only_registered"
+                android:textSize="12sp"
+                android:id="@+id/only_registered_projects"
+                android:layout_marginStart="-8dp"
+                android:layout_marginLeft="-8dp"
+                android:layout_gravity="top" />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="15dp" />
+
+            <ListView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/projects" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <ListView android:id="@+id/left_nav"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:background="@color/counter_text_color"
+        >
+    </ListView>
+</android.support.v4.widget.DrawerLayout>

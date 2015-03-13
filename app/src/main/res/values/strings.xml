@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EpiAndroid</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="login">Login</string>
+    <string name="password">Mot de passe</string>
+    <string name="but_login">Connexion</string>
+    <string name="error_credentials_empty">Veuillez renseigner vos identifiants</string>
+
+    <string name="api_unknown_error">Une erreur inconnue s\'est produite</string>
+    <string name="api_internal_error">Impossible d\'effectuer la requête</string>
+    <string name="api_internal_error_image">Impossible de charger l\'image</string>
+    <string name="api_loading_msg">Traitement en cours…</string>
+    <string name="api_request_error">Impossible de contacter l\'API</string>
+    <string name="api_invalid_creds">Le login ou le mot de passe est incorrect</string>
+    <string name="api_expired_token">Le token d\'identification a expiré. Veuillez vous reconnecter</string>
+    <string name="api_timeout">Le délai d\'attente est dépassé</string>
+    <string name="api_invalid_data">Les données récupérées sont invalides</string>
+    <string name="api_empty_data">Aucune information disponible</string>
+
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="datepicker">Veuillez choisir une date</string>
+    <string name="but_datepicker">Valider</string>
+    <string name="mess_undertreatment">Traitement en cours</string>
+
+    <string name="nav_profil">Profil</string>
+    <string name="nav_planning">Planning</string>
+    <string name="nav_project">Projets</string>
+    <string name="nav_marks">Notes</string>
+    <string name="nav_module">Modules</string>
+    <string name="nav_susie">Susies</string>
+    <string name="nav_logout">Déconnexion</string>
+    <string name="nav_trombi">Trombinoscope</string>
+    <string name="planning_room">Salle :</string>
+    <string name="unknownf">Inconnue</string>
+    <string name="unknownm">Inconnu</string>
+    <string name="next">Suivant</string>
+    <string name="prev">Précédent</string>
+
+    <string name="button_token">Token</string>
+    <string name="button_register">S\'inscrire</string>
+    <string name="button_unregister">Se désinscrire</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Annulez</string>
+
+    <string name="token_title">Veuillez entrez votre token</string>
+    <string name="susie">Susie</string>
+
+    <string-array name="nav_menu">
+        <item>@string/nav_profil</item>
+        <item>@string/nav_planning</item>
+        <item>@string/nav_susie</item>
+        <item>@string/nav_project</item>
+        <item>@string/nav_marks</item>
+        <item>@string/nav_module</item>
+        <item>@string/nav_trombi</item>
+        <item>@string/nav_logout</item>
+    </string-array>
+
+    <string name="title_activity_date_picker">DatePicker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_planning">PlanningActivity</string>
+    <string name="show_only_registered">Afficher ceux où je suis inscrit(e)</string>
+    <string name="unknown_m">Inconnu</string>
+    <string name="credits">Crédit</string>
+
+    <string name="profile_picture">Mon image</string>
+    <string name="profile_login">Login :</string>
+    <string name="profile_name">Nom :</string>
+    <string name="profile_promotion">Promotion :</string>
+    <string name="profile_tek">Tek</string>
+    <string name="profile_log_time">Temps de log :</string>
+    <string name="profile_show_messages">Voir mes messages</string>
+    <string name="profile_last_messages">Derniers messages :</string>
+
+    <string name="my_marks">Mes notes :</string>
+    <string name="my_projects">Mes projets :</string>
+    <string name="my_modules">Mes modules :</string>
+</resources>
